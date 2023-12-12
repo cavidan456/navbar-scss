@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+header nav {
+  width: 70%;
+  margin: auto;
+}
+header nav .home {
+  color: red;
+}
+header nav a {
+  color: #fff;
+}
+header nav a:hover {
+  color: red;
+}
+header nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header nav .clr {
+  color: #fff;
+}

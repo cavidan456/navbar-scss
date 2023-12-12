@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+header{
+    nav{
+        width: 70%;
+        margin: auto;
+        .home{
+            color: red;
+        }
+        a{
+            color: #fff;
+            &:hover{
+                color: red;
+            }
+        }
+        .dropdown:hover{
+            .dropdown-menu{
+                display: block;
+            }
+        }
+        .clr{
+            color: #fff;
+        }
+    }
+}

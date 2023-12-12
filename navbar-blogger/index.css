@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+}
+
+nav >div>ul>li>a{
+    font-weight: 500;
+    color: black;
+}
+
+nav >div>ul>li>a:hover{
+    color: #1b1bec;
+}
